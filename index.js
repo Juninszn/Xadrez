@@ -55,3 +55,16 @@ class Peca{
 
 const tabuleiro = new Tabuleiro();
 alert(tabuleiro.nome)
+
+class Peao extends Peca {
+    constructor(cor, linha, coluna) {
+        super(cor, linha,coluna);
+        this.simbolo = cor === 'branca' ? '♙' : '♟︎';
+    }
+}
+
+peao = new Peao('branca', 1, 1);
+console.log(peao);
+
+const tabuleiro = new Tabuleiro();
+alert(tabuleiro.nome);
