@@ -52,10 +52,6 @@ class Peca{
     )
 }
 
-
-const tabuleiro = new Tabuleiro();
-alert(tabuleiro.nome)
-
 class Peao extends Peca {
     constructor(cor, linha, coluna) {
         super(cor, linha,coluna);
