@@ -108,14 +108,14 @@ peao5 = new Peao('branca', 1, 5);
 peao6 = new Peao('branca', 1, 6);
 peao7 = new Peao('branca', 1, 7);
 
-torre0 = new Torre('branca', 0, 0);
-torre1 = new Torre('branca', 0, 7);
-cavalo0 = new Cavalo('branca',0,1);
-cavalo1 = new Cavalo('branca',0,6);
-bispo0 = new Bispo('branca',0,2);
-bispo1 = new Bispo('branca',0,5);
-rainha = new Rainha('branca',0,3);
-rei = new Rei('branca',0,4);
+torre0 = new Torre('branca', 0, 0)
+torre1 = new Torre('branca', 0, 7)
+cavalo0 = new Cavalo('branca',0,1)
+cavalo1 = new Cavalo('branca',0,6)
+bispo0 = new Bispo('branca',0,2)
+bispo1 = new Bispo('branca',0,5)
+rainha = new Rainha('branca',0,3)
+rei = new Rei('branca',0,4)
 
 tabuleiro.colocarPeca(peao0,1,0)
 tabuleiro.colocarPeca(peao1,1,1)
